@@ -7,7 +7,10 @@
 //
 
 #import <SpriteKit/SpriteKit.h>
+#include "Game.h"
 
 @interface GameScene : SKScene
-
+{
+    Game g;
+}
 @end
